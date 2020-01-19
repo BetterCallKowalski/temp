@@ -5,7 +5,7 @@ chrome = WebDriver(executable_path='/mnt/c/selenium/chromedriver.exe')
 
 chrome.get("https://yandex.ru")
 
-chrome.find_element_by_css_selector('.input__control.input__input').send_keys("большие сиськи")
+chrome.find_element_by_css_selector('.input__control.input__input').send_keys("nice cats")
 
 time.sleep(3)
 
